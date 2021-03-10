@@ -32,13 +32,8 @@
   
    - 3.4 The Waffle Plot
 
-4.0 Data Visualization Critique
 
-  - The Good 
-  
-  - The Bad 
-
-5.0 Bibliography 
+4.0 Bibliography 
 
 
 
@@ -290,7 +285,7 @@ Across the previous plots the information has been focused on the various threat
 
 ![Fig 3.4. Waffle Plot.](./Plants_in_Danger/plot_3.4.png)
 
-### 5.0 Bibliography
+### 4.0 Bibliography
 
 
 | Methane (AKA 'Natural Gas)
