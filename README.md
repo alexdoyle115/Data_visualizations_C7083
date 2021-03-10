@@ -163,7 +163,7 @@ An interactive version of the is available on Rpubs https://rpubs.com/alexdoyle1
 
 The Big Mac was invented by The Economist in 1986 as a way to compare a currencies exchange rate and its purchasing power. The index is based off of the theory of purchasing-power parity (PPP) which says that in the long-term exchange rates would shift to a point where prices for the same goods should be equalized. The infographic below from the economist website outlines the theory very well and can be found [**here**](https://infographics.economist.com/2018/big-mac/images/bigmac_INTRO_ai2html-raw2.png). The index is updated biannually by The Economist and an interactive app is available [**here**](https://www.economist.com/big-mac-index)
 
-![Source: The Economist.](Mig_Mac_Index/BMI.png)
+![Source: The Economist.](./Big_Mac_Index/BMI.png)
 
 . The continents data set from [**Data Hub**](https://datahub.io/) and can be found [**here**](https://datahub.io/JohnSnowLabs/country-and-continent-codes-list) and was created by [**John Snow LABS**](https://www.johnsnowlabs.com/) provided a link between the 3 letter country codes used in the data and the 2 letter country codes that ggflags runs on. 
 * `big-mac.csv`
@@ -198,20 +198,20 @@ The Big Mac was invented by The Economist in 1986 as a way to compare a currenci
 #### 2.1 - The base R plot
 The basis of PPP says that exchange rates should trend towards a point where long-term exchange rates should shift towards a point where the same goods and services have the same price. In the real world this theory is impacted by factors such as poverty,  tariffs and the imperfectness of real-world economics (Lian, L., Lan, Y., 2003 ). Despite this it was worth looking at the extremes of the Big Mac index. By taking the minimum and maximum of each date to see if overvaluations and undervaluation were decreasing. It appears to be increasing but this may be due to more countries being added as the years go by. 
 
-![Fig 2.1. Purchasing Power Parity.](./plot_2.1.png)
+![Fig 2.1. Purchasing Power Parity.](./Big_Mac_Index/plot_2.1.png)
 
 
 #### 2.2 - The GGplot
 Moving now to look at for a trend in how valuations have changed over time. Using a cleveland plot for this type of visualization was suitable as it shows the change in valuation over time. Another approach would be to use a line graph to explore the various paths of the data, but it would be a very difficult diagram to read. Instead focusing on start and end points it offers the more generalized view that in comparison to the UD$ the valuation at least in terms of Big Macs is trending towards currencies being undervalued. 
 
-![Fig 2.2. Changes in local currencyvaluation.](/Users/alexd/Desktop/C7083-Assignment/Graphs/plot_2.2.png)
+![Fig 2.2. Changes in local currencyvaluation.](./Big_Mac_Index/plot_2.2.png)
 
 \newpage
 
 #### 2.3 - The Shiny App
 The interactivity and flexibility that a shiny app enables to quickly display reactive information made it perfect for displaying information such as this. With the time series data as well as the different indexes available to show trying to use a traditional graph would have resulted in complex mess. The Shiny app allows a user to display whatever countries they so choose and in terms of the scale they want (Exchange Rate, Local Price or Value). 
 
-![Fig 2.3. The Big Mac Index (Shiny App).](/Users/alexd/Desktop/C7083-Assignment/Graphs/plot_2.3.png)
+![Fig 2.3. The Big Mac Index (Shiny App).](./Big_Mac_Index/plot_2.3.png)
 
 The shiny app can be found at the link here https://dataweb.shinyapps.io/big_mac_app/
 
@@ -219,7 +219,7 @@ The shiny app can be found at the link here https://dataweb.shinyapps.io/big_mac
 #### 2.4 - The Animation
 For the final plot in the series an animation was the go-to selection. Using the time series element of the data to create a bar race to show the top 10 most expensive countries to purchase a big mac at each time interval. 
 
-![Fig 2.4 Animated Bar Race.](/Users/alexd/Desktop/C7083-Assignment/Graphs/plot_2.4.png)
+![Fig 2.4 Animated Bar Race.](./Big_Mac_Index/plot_2.4.gif)
 
 
 ### 3.0 Plants in Danger 
@@ -263,13 +263,13 @@ The data is downloaded in 3 different sets, with the `plant.csv` being the origi
 #### 3.1 - The Base R plot
 Starting off the plots it is looking at the threats that have faced plants over the decades and how they have changed. Plotting the 7 main threats, threats not recorded as well as a combination of the 3 smallest threats gives a good understanding how things have changed. Energy and Mining for example show a temporary spike that soon returns to original levels sparking interest in what caused this. 
 
-![Fig 3.1. The Threats to plants.](/Users/alexd/Desktop/C7083-Assignment/Graphs/plot_3.1.png)
+![Fig 3.1. The Threats to plants.](./Plants_in_Danger/plot_3.1.png)
 
 
 #### 3.2 - The GGPlot
 The final plot that was created aims to display the change in the rate of extinction as well as the number of plants that are saved from complete extinction through intervention such as seed banks. It is simple but effective. 
 
-![Fig 3.2. Preservation of Extinct Species.](/Users/alexd/Desktop/C7083-Assignment/Graphs/plot_3.2.png)
+![Fig 3.2. Preservation of Extinct Species.](./Plants_in_Danger/plot_3.2.png)
 
 
 
@@ -277,7 +277,9 @@ The final plot that was created aims to display the change in the rate of extinc
 For the interactive plot the aim was to show the relationship between the threats, countries and how they have changed over time there were several plots that may have achieved this. The Sankey Diagram allowed for a clearer image of the "flow" of the different sections while the interactivity allows for focusing on individual nodes and streams.
 A link to an interactive version is available on Rpubs https://rpubs.com/alexdoyle115/plant_in_danger
  
-![Fig 3.3 Flow of Plant Threats.](/Users/alexd/Desktop/C7083-Assignment/Graphs/plot_3.3.png)
+![Fig 3.3 Flow of Plant Threats.](./Plants_in_Danger/plot_3.3.png)
 
 #### 3.4 - The Waffle Plot
 Across the previous plots the information has been focused on the various threats to the plants that may have led to the plants going extinct (in the wild). The actions data set received little attention; this was mainly due to its contents. Looking at the waffle plot below it clearly shows the number of unknown/no actions taken outweighs all the other actions. The waffle plot offers the ability to show the imbalance and highlights the lack of Education & Awareness actions being taken.  
+
+![Fig 3.4. Waffle Plot.](./Plants_in_Danger/plot_3.4.png)
