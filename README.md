@@ -287,25 +287,15 @@ Across the previous plots the information has been focused on the various threat
 
 ### 4.0 Bibliography
 
+ Lebreton, L., Slat, B., Ferrari, F., Sainte-Rose, B., Aitken, J., Marthouse, R.,      
+   Hajbane, S., Cunsolo, S., Schwarz, A., Levivier, A. and Noble, K., 2018. Evidence   
+   that the Great Pacific Garbage Patch is rapidly accumulating plastic. Scientific 
+   reports, 8(1), pp.1-15.
 
-| Methane (AKA 'Natural Gas)
-|   McCandless, D., Geere, D., Bergamaschi, F.
-|   informationisbeutful,
-|   https://informationisbeautiful.net/
+ Jambeck, J.R., Geyer, R., Wilcox, C., Siegler, T.R., Perryman, M., Andrady, A.,       
+   Narayan, R. and Law, K.L., 2015. Plastic waste inputs from land into the ocean.     
+   Science, 347(6223), pp.768-771.
 
-| Plants in Danger 
-|   Florent Lavergne
-|   https://www.behance.net/florentlavergne
-
-| Lebreton, L., Slat, B., Ferrari, F., Sainte-Rose, B., Aitken, J., Marthouse, R.,      
-|   Hajbane, S., Cunsolo, S., Schwarz, A., Levivier, A. and Noble, K., 2018. Evidence   
-|   that the Great Pacific Garbage Patch is rapidly accumulating plastic. Scientific 
-|   reports, 8(1), pp.1-15.
-
-| Jambeck, J.R., Geyer, R., Wilcox, C., Siegler, T.R., Perryman, M., Andrady, A.,       
-|   Narayan, R. and Law, K.L., 2015. Plastic waste inputs from land into the ocean.     
-|   Science, 347(6223), pp.768-771.
-
-| Ong, L.L. and Lan, Y., 2003. The growing evidence on purchasing power parity.
-|   In The Big Mac Index (pp. 29-50). Palgrave Macmillan, London.
+ Ong, L.L. and Lan, Y., 2003. The growing evidence on purchasing power parity.
+   In The Big Mac Index (pp. 29-50). Palgrave Macmillan, London.
 
