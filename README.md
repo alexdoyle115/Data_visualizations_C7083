@@ -125,7 +125,7 @@ Looking at the output the table shows that the number of rows that have data for
 
 #### 1.1 - The base R plot
 
--[Fig. 1.1 Daily Plastic Waste Production](.Global_Plastic_Waste/plot_1.1.png)
+-[Fig. 1.1 Daily Plastic Waste Production](Global_Plastic_Waste/plot_1.1.png)
 
 
 The aim for Graph 1.1 was to compare the average amount of waste plastic and mismanaged plastic a person produces a day. While production did vary within the continents there were far too many countries to display efficiently so the countries were grouped by continents and the average was calculated. 
