@@ -198,17 +198,17 @@ The Big Mac was invented by The Economist in 1986 as a way to compare a currenci
 #### 2.1 - The base R plot
 The basis of PPP says that exchange rates should trend towards a point where long-term exchange rates should shift towards a point where the same goods and services have the same price. In the real world this theory is impacted by factors such as poverty,  tariffs and the imperfectness of real-world economics (Lian, L., Lan, Y., 2003 ). Despite this it was worth looking at the extremes of the Big Mac index. By taking the minimum and maximum of each date to see if overvaluations and undervaluation were decreasing. It appears to be increasing but this may be due to more countries being added as the years go by. 
 
-![Fig 2.1. Purchasing Power Parity.](/Users/alexd/Desktop/C7083-Assignment/Graphs/plot_2.1.png)
+![Fig 2.1. Purchasing Power Parity.](./plot_2.1.png)
 
 
-#### 2.2 - The GGplot\
+#### 2.2 - The GGplot
 Moving now to look at for a trend in how valuations have changed over time. Using a cleveland plot for this type of visualization was suitable as it shows the change in valuation over time. Another approach would be to use a line graph to explore the various paths of the data, but it would be a very difficult diagram to read. Instead focusing on start and end points it offers the more generalized view that in comparison to the UD$ the valuation at least in terms of Big Macs is trending towards currencies being undervalued. 
 
 ![Fig 2.2. Changes in local currencyvaluation.](/Users/alexd/Desktop/C7083-Assignment/Graphs/plot_2.2.png)
 
 \newpage
 
-#### 2.3 - The Shiny App\
+#### 2.3 - The Shiny App
 The interactivity and flexibility that a shiny app enables to quickly display reactive information made it perfect for displaying information such as this. With the time series data as well as the different indexes available to show trying to use a traditional graph would have resulted in complex mess. The Shiny app allows a user to display whatever countries they so choose and in terms of the scale they want (Exchange Rate, Local Price or Value). 
 
 ![Fig 2.3. The Big Mac Index (Shiny App).](/Users/alexd/Desktop/C7083-Assignment/Graphs/plot_2.3.png)
