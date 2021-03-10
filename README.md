@@ -206,7 +206,6 @@ Moving now to look at for a trend in how valuations have changed over time. Usin
 
 ![Fig 2.2. Changes in local currencyvaluation.](./Big_Mac_Index/plot_2.2.png)
 
-\newpage
 
 #### 2.3 - The Shiny App
 The interactivity and flexibility that a shiny app enables to quickly display reactive information made it perfect for displaying information such as this. With the time series data as well as the different indexes available to show trying to use a traditional graph would have resulted in complex mess. The Shiny app allows a user to display whatever countries they so choose and in terms of the scale they want (Exchange Rate, Local Price or Value). 
