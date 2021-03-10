@@ -114,7 +114,7 @@ mismanaged_vs_gdp <- readr::read_csv("https://raw.githubusercontent.com/rfordata
 waste_vs_gdp <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-05-21/per-capita-plastic-waste-vs-gdp-per-capita.csv")
 
 continents <- readr::read_csv('https://datahub.io/JohnSnowLabs/country-and-continent-codes-list/r/0.csv') # Includes 3 letter country code and continent information for graph 1 
-co2 <- readr::read_csv("https://raw.githubusercontent.com/alexdoyle115/Data_visualizations_C7083/main/co2_emissions_tonnes_per_person.csv")
+co2 <- readr::read_csv("https://raw.githubusercontent.com/alexdoyle115/Data_visualizations_C7083/main/Global_Plastic_Waste/co2_emissions_tonnes_per_person.csv")
 
 ```
 
