@@ -43,12 +43,6 @@
 
 
 
-```{r libraries, include = FALSE}
-library(janitor)
-library(tidyverse)
-```
-
-
 ```{r data, include = FALSE}
 coast_vs_waste <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-05-21/coastal-population-vs-mismanaged-plastic.csv")
 
@@ -124,11 +118,10 @@ Looking at the output the table shows that the number of rows that have data for
 
 
 #### 1.1 - The base R plot
-<p align="center">
+
   
 ![Fig. 1.1 Daily Plastic Waste Production](./Global_Plastic_Waste/plot_1.1.png)
 
-</p>
 
 The aim for Graph 1.1 was to compare the average amount of waste plastic and mismanaged plastic a person produces a day. While production did vary within the continents there were far too many countries to display efficiently so the countries were grouped by continents and the average was calculated. 
 
@@ -161,7 +154,12 @@ An interactive version of the is available on Rpubs https://rpubs.com/alexdoyle1
 
 ### 2.0 The Big Mac Index
 
+```{r loading data, include = FALSE }
+# read in the data
+big_mac<- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-12-22/big-mac.csv')
 
+continent <- readr::read_csv('https://datahub.io/JohnSnowLabs/country-and-continent-codes-list/r/0.csv')
+```
 
 The Big Mac was invented by The Economist in 1986 as a way to compare a currencies exchange rate and its purchasing power. The index is based off of the theory of purchasing-power parity (PPP) which says that in the long-term exchange rates would shift to a point where prices for the same goods should be equalized. The infographic below from the economist website outlines the theory very well and can be found [**here**](https://infographics.economist.com/2018/big-mac/images/bigmac_INTRO_ai2html-raw2.png). The index is updated biannually by The Economist and an interactive app is available [**here**](https://www.economist.com/big-mac-index)
 
@@ -225,6 +223,13 @@ For the final plot in the series an animation was the go-to selection. Using the
 
 
 ### 3.0 Plants in Danger 
+
+```{r read in plants, include  = FALSE}
+# Loading in the data 
+plants <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-18/plants.csv')
+actions <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-18/actions.csv')
+threats <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-18/threats.csv')
+```
 
 The [**International Union for Conservation of Natures' Red List of Threatened Species**](https://www.iucnredlist.org/) is data source regarding to range, population size, conservation status and much more of all types of animal, fungi and plant species. The main aim of such a list is to provide information to government agencies, wildlife departments, NGOs, and the general public about the decline in biodiversity and number of species facing extinction. The dataset for these graphics was scraped by Florent Lavergne for his [**unique infographic**](https://www.behance.net/gallery/98304453/Infographic-Plants-in-Danger). Florent created this project to outlines the number of plants at high risk of extinction as he felt that plants are often underrepresented in comparison  to animals at risk of extinction.  
  
