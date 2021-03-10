@@ -134,21 +134,21 @@ The aim for Graph 1.1 was to compare the average amount of waste plastic and mis
 #### 1.2 - The GGplot
 From plot one we learned that the continents that produce the most plastic waste per person per day tend to dispose of that plastic more carefully and on first appearances is seems that these higher producing countries are richer and more developed in comparison to the high mismanaged waste producers. The aim of the ggplot was therefore to look at the effects of income on the types of plastic waste produced. To make it more readable the axis are on the log scale which is important to remember. Again the plot is divided by the types of plastic and coloured according to the continents to try and decipher trends. Looking at the graph it does indicate as a countries GDP increases it seems to increase plastic waste production compared to the mismanaged waste which had a negative relationship with GDP.   
 
-![Fig. 1.2 Trends in Plastic Waste Production.](/Users/alexd/Desktop/C7083-Assignment/Graphs/plot_1.2.png)
+![Fig. 1.2 Trends in Plastic Waste Production.](./Global_Plastic_Waste/plot_1.2.png)
 
 
 
 #### 1.3 - The Interactive Plot
 For the interactive plot, the aim was to add to the scatter plot in the previous as it suited the type of data that was being displayed. Adding the CO~2~ data too added another layer as it was a different way of looking at it in comparison to gdp. The interactivity also allows for zooming in on the concentrated points in the corner around the origin without needing to use the log scale. 
 
-![Fig. 1.3. Interactive Plot with plotly().](/Users/alexd/Desktop/C7083-Assignment/Graphs/plot_1.3.png){width=65%}
+![Fig. 1.3. Interactive Plot with plotly().](./Global_Plastic_Waste/plot_1.3.png)
 
 An interactive version of the is available on Rpubs https://rpubs.com/alexdoyle115/mismanaged_waste
 
 #### 1.4 - The Interactive Map
 An interactive map was a key data visualization for this assignment and this data was perfect. Colouring the map by the mismanaged plastic waste gives a good indicator of the countries that produce the most of waste. This really highlights the contribution China makes to global ocean pollution. 
 
-![Fig 1.4. Interactive map with leaflet().](/Users/alexd/Desktop/C7083-Assignment/Graphs/plot_1.4.png){width=65%}
+![Fig 1.4. Interactive map with leaflet().](./Global_Plastic_Waste/plot_1.4.png)
 
 An interactive version of the is available on Rpubs https://rpubs.com/alexdoyle115/waste_map
 
