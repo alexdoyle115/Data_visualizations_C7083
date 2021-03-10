@@ -289,3 +289,28 @@ A link to an interactive version is available on Rpubs https://rpubs.com/alexdoy
 Across the previous plots the information has been focused on the various threats to the plants that may have led to the plants going extinct (in the wild). The actions data set received little attention; this was mainly due to its contents. Looking at the waffle plot below it clearly shows the number of unknown/no actions taken outweighs all the other actions. The waffle plot offers the ability to show the imbalance and highlights the lack of Education & Awareness actions being taken.  
 
 ![Fig 3.4. Waffle Plot.](./Plants_in_Danger/plot_3.4.png)
+
+### 5.0 Bibliography
+
+
+| Methane (AKA 'Natural Gas)
+|   McCandless, D., Geere, D., Bergamaschi, F.
+|   informationisbeutful,
+|   https://informationisbeautiful.net/
+
+| Plants in Danger 
+|   Florent Lavergne
+|   https://www.behance.net/florentlavergne
+
+| Lebreton, L., Slat, B., Ferrari, F., Sainte-Rose, B., Aitken, J., Marthouse, R.,      
+|   Hajbane, S., Cunsolo, S., Schwarz, A., Levivier, A. and Noble, K., 2018. Evidence   
+|   that the Great Pacific Garbage Patch is rapidly accumulating plastic. Scientific 
+|   reports, 8(1), pp.1-15.
+
+| Jambeck, J.R., Geyer, R., Wilcox, C., Siegler, T.R., Perryman, M., Andrady, A.,       
+|   Narayan, R. and Law, K.L., 2015. Plastic waste inputs from land into the ocean.     
+|   Science, 347(6223), pp.768-771.
+
+| Ong, L.L. and Lan, Y., 2003. The growing evidence on purchasing power parity.
+|   In The Big Mac Index (pp. 29-50). Palgrave Macmillan, London.
+
