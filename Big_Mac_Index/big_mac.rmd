@@ -172,7 +172,7 @@ barplot(eda_matrix,
 
 mtext("Purchasing Power Parity: Trends in Big Mac Prices", adj = 1.1, side=3, line=4.5, cex=1.5, col="white") # Title
 
-mtext("The price range of a Big Mac in various countries From 2000 \n  to 2020, Price converted from local  currency to US dollars", adj = -.6, side=3, line=2.5, cex=0.8, col="white") # Subtitle
+mtext("The price range of a Big Mac in various countries From 2000 \n  to 2020, Price converted from local  currency to US dollars \n                                    red indicates average", adj = -.6, side=3, line=2.5, cex=0.8, col="white") # Subtitle
  
 mtext("2000", adj = 0, side=1, line=0, cex=0.8, col="white", family = "Calibri")
 mtext("2006", adj = .25, side = 1, line=0, cex = 0.8, col ="white", family = "Calibri")
