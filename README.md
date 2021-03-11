@@ -158,7 +158,7 @@ continent <- readr::read_csv('https://datahub.io/JohnSnowLabs/country-and-contin
 
 The Big Mac was invented by The Economist in 1986 as a way to compare a currencies exchange rate and its purchasing power. The index is based off of the theory of purchasing-power parity (PPP) which says that in the long-term exchange rates would shift to a point where prices for the same goods should be equalized. The infographic below from the economist website outlines the theory very well and can be found [**here**](https://infographics.economist.com/2018/big-mac/images/bigmac_INTRO_ai2html-raw2.png). The index is updated biannually by The Economist and an interactive app is available [**here**](https://www.economist.com/big-mac-index)
 
-![Source: The Economist.](./Big_Mac_Index/BMI.png)
+![Source: The Economist.](./Big_Mac_Index/BMI.png) Source: The Economist
 
 . The continents data set from [**Data Hub**](https://datahub.io/) and can be found [**here**](https://datahub.io/JohnSnowLabs/country-and-continent-codes-list) and was created by [**John Snow LABS**](https://www.johnsnowlabs.com/) provided a link between the 3 letter country codes used in the data and the 2 letter country codes that ggflags runs on. 
 * `big-mac.csv`
@@ -287,25 +287,15 @@ Across the previous plots the information has been focused on the various threat
 
 ### 4.0 Bibliography
 
+ Lebreton, L., Slat, B., Ferrari, F., Sainte-Rose, B., Aitken, J., Marthouse, R.,      
+   Hajbane, S., Cunsolo, S., Schwarz, A., Levivier, A. and Noble, K., 2018. Evidence   
+   that the Great Pacific Garbage Patch is rapidly accumulating plastic. Scientific 
+   reports, 8(1), pp.1-15.
 
-| Methane (AKA 'Natural Gas)
-|   McCandless, D., Geere, D., Bergamaschi, F.
-|   informationisbeutful,
-|   https://informationisbeautiful.net/
+ Jambeck, J.R., Geyer, R., Wilcox, C., Siegler, T.R., Perryman, M., Andrady, A.,       
+   Narayan, R. and Law, K.L., 2015. Plastic waste inputs from land into the ocean.     
+   Science, 347(6223), pp.768-771.
 
-| Plants in Danger 
-|   Florent Lavergne
-|   https://www.behance.net/florentlavergne
-
-| Lebreton, L., Slat, B., Ferrari, F., Sainte-Rose, B., Aitken, J., Marthouse, R.,      
-|   Hajbane, S., Cunsolo, S., Schwarz, A., Levivier, A. and Noble, K., 2018. Evidence   
-|   that the Great Pacific Garbage Patch is rapidly accumulating plastic. Scientific 
-|   reports, 8(1), pp.1-15.
-
-| Jambeck, J.R., Geyer, R., Wilcox, C., Siegler, T.R., Perryman, M., Andrady, A.,       
-|   Narayan, R. and Law, K.L., 2015. Plastic waste inputs from land into the ocean.     
-|   Science, 347(6223), pp.768-771.
-
-| Ong, L.L. and Lan, Y., 2003. The growing evidence on purchasing power parity.
-|   In The Big Mac Index (pp. 29-50). Palgrave Macmillan, London.
+ Ong, L.L. and Lan, Y., 2003. The growing evidence on purchasing power parity.
+   In The Big Mac Index (pp. 29-50). Palgrave Macmillan, London.
 
